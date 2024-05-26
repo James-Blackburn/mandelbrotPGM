@@ -55,7 +55,7 @@ void renderMandelbrot(cl_uchar* canvas, cl_int width, cl_int height, cl_int prec
 int main(int argc, char** argv) {
 	// extract arguments
 	if (argc != 4) {
-		printf("Incorrect Usage:\nmandelbrot_generator [width] [height] [precision]\n");
+		printf("Incorrect Usage:\nmandelbrotPGM [width] [height] [precision]\n");
 		exit(EXIT_FAILURE);
 	}
 	for (int i = 1; i < 4; i++) {
